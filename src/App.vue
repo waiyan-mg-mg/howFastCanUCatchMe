@@ -1,17 +1,24 @@
 <template>
-  <h1>Hello</h1>
-  <input type="text" /> <button @click="clickHandler">Click</button>
+  <h1>{{ header }}</h1>
+  <Modal />
 </template>
 <script>
+import Modal from "./components/Modal.vue";
 export default {
   data() {
     return {
       header: "This is our header ",
     };
   },
+  methods: {},
+  components: {
+    Modal,
+  },
 };
 </script>
 <style>
+
+
 h1 {
   font-size: 40px;
 }
