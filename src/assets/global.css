@@ -1,8 +1,22 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  body{
-    overflow-x: hidden;
-  }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html{
+  padding: 60px;
+  max-width: 1150px;
+  margin: 0 auto;
+}
+body{
+  background-color: rgb(48, 44, 44);
+}
+p {
+  line-height: 1.5em;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
